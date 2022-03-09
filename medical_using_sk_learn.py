@@ -16,4 +16,8 @@ def check_age(age):
 def count_check(c):
     if c > 17:
         return "Too many symptoms"
+def modelling():
     
+    df = pd.read_csv("dataset.csv")
+    inputs = df.drop('Disease',axis='columns')
+    target = df['Disease']    
