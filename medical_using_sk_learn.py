@@ -33,3 +33,23 @@ def modelling():
             symptom = new[col][ind]
             if symptom not in symptoms and str(symptom) != "nan": #
                 symptoms.append(symptom) 
+    
+    print("Please wait !!")
+    print("Loading.....")
+    symptoms.append("Disease")
+
+    new_df = pd.DataFrame(columns = symptoms)
+    
+    for ind in df.index:
+        smp = [0]*(len(symptoms)-1)
+        for symp in col_names:
+            val = df[symp][ind]
+            if str(val) == "nan": #
+                continue
+            idx = symptoms.index(val)
+            smp[idx] = 1
+            
+        smp.append(df["Disease"][ind])
+        #print(len(smp),smp)
+        new_df.loc[ind] = smp
+    print("Dataset loaded...")
