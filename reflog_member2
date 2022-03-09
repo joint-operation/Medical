@@ -1,0 +1,30 @@
+c6b6d7c HEAD@{0}: pull: Fast-forward
+0c9a1e8 HEAD@{1}: commit: C9 debugging
+28195b0 HEAD@{2}: merge Member2: Fast-forward
+f6f428f HEAD@{3}: checkout: moving from Member2 to main
+28195b0 HEAD@{4}: commit: C8 modeling done
+f6f428f HEAD@{5}: checkout: moving from main to Member2
+f6f428f HEAD@{6}: merge Member2: Fast-forward
+33abd88 HEAD@{7}: checkout: moving from Member2 to main
+f6f428f HEAD@{8}: commit: C7 modified again
+a15c887 HEAD@{9}: commit: C6 modified
+33abd88 HEAD@{10}: checkout: moving from main to Member2
+33abd88 HEAD@{11}: merge Member2: Fast-forward
+eb42751 HEAD@{12}: checkout: moving from Member2 to main
+33abd88 HEAD@{13}: commit: C5 modified modeling
+eb42751 HEAD@{14}: checkout: moving from main to Member2
+eb42751 HEAD@{15}: merge Member2: Fast-forward
+23b8647 HEAD@{16}: pull: Fast-forward
+68e8a49 HEAD@{17}: checkout: moving from Member2 to main
+eb42751 HEAD@{18}: commit: C4 completed modeling definition
+7a3656a HEAD@{19}: commit: C3 started modeling
+f4bb046 HEAD@{20}: pull origin main: Merge made by the 'recursive' strategy.
+fe14e81 HEAD@{21}: checkout: moving from main to Member2
+68e8a49 HEAD@{22}: pull: Fast-forward
+88b57da HEAD@{23}: checkout: moving from Member2 to main
+fe14e81 HEAD@{24}: commit: C2 modified file
+f3d0d66 HEAD@{25}: commit: C1 on branch Member2
+88b57da HEAD@{26}: checkout: moving from main to Member2
+88b57da HEAD@{27}: pull: Fast-forward
+3c7a200 HEAD@{28}: pull: Fast-forward
+f227ff4 HEAD@{29}: clone: from https://github.com/joint-operation/Medical.git

@@ -1,0 +1,46 @@
+c6b6d7c HEAD@{0}: commit: end of using sk learn
+e6406c1 HEAD@{1}: merge Member1: Fast-forward
+e131cfe HEAD@{2}: pull: Fast-forward
+5977640 HEAD@{3}: checkout: moving from Member1 to main
+e6406c1 HEAD@{4}: commit: added main
+e131cfe HEAD@{5}: pull origin main: Fast-forward
+92a6a72 HEAD@{6}: checkout: moving from main to Member1
+5977640 HEAD@{7}: pull: Fast-forward
+23b8647 HEAD@{8}: checkout: moving from main to main
+23b8647 HEAD@{9}: merge Member1: Merge made by the 'recursive' strategy.
+3a72378 HEAD@{10}: commit: added new datasheet
+b868e5c HEAD@{11}: checkout: moving from Member1 to main
+92a6a72 HEAD@{12}: commit: removed datasheet from member1
+ccb79eb HEAD@{13}: checkout: moving from main to Member1
+b868e5c HEAD@{14}: commit: deleted empty file
+f8e61cb HEAD@{15}: checkout: moving from Member1 to main
+ccb79eb HEAD@{16}: pull origin main: Merge made by the 'recursive' strategy.
+5402aed HEAD@{17}: checkout: moving from main to Member1
+f8e61cb HEAD@{18}: commit: added symptom_severity.csv
+68e8a49 HEAD@{19}: commit: precaution file added
+88b57da HEAD@{20}: commit: created symptom file
+ed7de76 HEAD@{21}: checkout: moving from Member1 to main
+5402aed HEAD@{22}: checkout: moving from Member1 to Member1
+5402aed HEAD@{23}: pull origin main: Merge made by the 'recursive' strategy.
+8c3d3b8 HEAD@{24}: checkout: moving from main to Member1
+ed7de76 HEAD@{25}: checkout: moving from Member1 to main
+8c3d3b8 HEAD@{26}: checkout: moving from main to Member1
+ed7de76 HEAD@{27}: commit: c7 added datasheet in main
+3c7a200 HEAD@{28}: checkout: moving from Member1 to main
+8c3d3b8 HEAD@{29}: checkout: moving from main to Member1
+3c7a200 HEAD@{30}: checkout: moving from Member1 to main
+8c3d3b8 HEAD@{31}: commit: c6
+478b794 HEAD@{32}: commit: count_check fun added
+c5e547f HEAD@{33}: commit: modified minimum age
+8b9ff5c HEAD@{34}: revert: Revert "check_age fun added"
+854e6e0 HEAD@{35}: reset: moving to HEAD
+854e6e0 HEAD@{36}: reset: moving to HEAD
+854e6e0 HEAD@{37}: commit: check_age fun added
+d995586 HEAD@{38}: commit: sym_check function added
+3c7a200 HEAD@{39}: checkout: moving from main to Member1
+3c7a200 HEAD@{40}: merge Member1: Fast-forward
+f227ff4 HEAD@{41}: checkout: moving from Member1 to main
+3c7a200 HEAD@{42}: commit: C1 imported pyweb.io,pandas
+f227ff4 HEAD@{43}: checkout: moving from main to Member1
+f227ff4 HEAD@{44}: commit: added 2 empty file
+e44b8e8 HEAD@{45}: clone: from https://github.com/joint-operation/Medical.git

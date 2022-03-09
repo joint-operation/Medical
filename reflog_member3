@@ -1,0 +1,44 @@
+e131cfe HEAD@{0}: merge member3: Fast-forward
+cc90855 HEAD@{1}: checkout: moving from member3 to main
+e131cfe HEAD@{2}: commit: end of predict
+cc90855 HEAD@{3}: checkout: moving from main to member3
+cc90855 HEAD@{4}: merge member3: Fast-forward
+74b8400 HEAD@{5}: checkout: moving from member3 to main
+cc90855 HEAD@{6}: commit: end of predict
+74b8400 HEAD@{7}: checkout: moving from main to member3
+74b8400 HEAD@{8}: merge member3: Fast-forward
+6d8cd69 HEAD@{9}: checkout: moving from member3 to main
+74b8400 HEAD@{10}: commit: loop in smps
+6d8cd69 HEAD@{11}: checkout: moving from main to member3
+6d8cd69 HEAD@{12}: merge member3: Fast-forward
+b5deca4 HEAD@{13}: checkout: moving from member3 to main
+6d8cd69 HEAD@{14}: commit: work on predict
+b5deca4 HEAD@{15}: checkout: moving from main to member3
+b5deca4 HEAD@{16}: merge member3: Fast-forward
+f64e42f HEAD@{17}: checkout: moving from member3 to main
+b5deca4 HEAD@{18}: commit (merge): c3 on predict
+f4bc2e1 HEAD@{19}: commit: debug
+4f596e6 HEAD@{20}: checkout: moving from main to member3
+f64e42f HEAD@{21}: checkout: moving from main to main
+f64e42f HEAD@{22}: commit: c2 on predict
+7674852 HEAD@{23}: merge member3: Merge made by the 'recursive' strategy.
+d79768b HEAD@{24}: checkout: moving from member3 to main
+4f596e6 HEAD@{25}: commit: member 3 started working on predict
+5977640 HEAD@{26}: checkout: moving from main to member3
+d79768b HEAD@{27}: checkout: moving from main to main
+d79768b HEAD@{28}: commit: updated
+d5c998f HEAD@{29}: checkout: moving from main to main
+d5c998f HEAD@{30}: commit: updated
+c7edbe8 HEAD@{31}: checkout: moving from main to main
+c7edbe8 HEAD@{32}: commit: updated
+45ddbcf HEAD@{33}: checkout: moving from main to main
+45ddbcf HEAD@{34}: commit: redme
+5977640 HEAD@{35}: merge member3: Fast-forward
+d7baa26 HEAD@{36}: checkout: moving from member3 to main
+5977640 HEAD@{37}: commit: readme file updated.
+d7baa26 HEAD@{38}: checkout: moving from main to member3
+d7baa26 HEAD@{39}: merge member3: Fast-forward
+0c9a1e8 HEAD@{40}: checkout: moving from member3 to main
+d7baa26 HEAD@{41}: commit: some debbugging
+0c9a1e8 HEAD@{42}: checkout: moving from main to member3
+0c9a1e8 HEAD@{43}: clone: from https://github.com/joint-operation/Medical.git

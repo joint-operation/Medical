@@ -1,0 +1,283 @@
+commit c6b6d7c42b9ea94e7bee8fd7ece20f60ef7b1632
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 23:32:54 2022 +0530
+
+    end of using sk learn
+
+commit e6406c1f7fe386ed04f5a61d826335c91e2aae89
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 23:29:10 2022 +0530
+
+    added main
+
+commit e131cfe75a25d8e3f64ffef892c5bbf96cea312c
+Author: raunak <raunakkumar0906@gmail.com>
+Date:   Thu Mar 10 23:24:47 2022 +0530
+
+    end of predict
+
+commit cc9085592c024eb237150e0c50a8bccbcffe84ea
+Author: raunak <raunakkumar0906@gmail.com>
+Date:   Thu Mar 10 23:22:25 2022 +0530
+
+    end of predict
+
+commit 74b8400d52475ada45e4686d73ccf4c253f8428e
+Author: raunak <raunakkumar0906@gmail.com>
+Date:   Thu Mar 10 23:20:41 2022 +0530
+
+    loop in smps
+
+commit 6d8cd697aac26da5b0439f258c54151b1f86b603
+Author: raunak <raunakkumar0906@gmail.com>
+Date:   Thu Mar 10 23:18:16 2022 +0530
+
+    work on predict
+
+commit b5deca43640eecf27614a53676fe275dce566f66
+Merge: f4bc2e1 f64e42f
+Author: raunak <raunakkumar0906@gmail.com>
+Date:   Thu Mar 10 23:15:15 2022 +0530
+
+    c3 on predict
+
+commit f4bc2e17d006c8cdbde4a431d873c0cf305bd973
+Author: raunak <raunakkumar0906@gmail.com>
+Date:   Thu Mar 10 23:12:49 2022 +0530
+
+    debug
+
+commit f64e42f7acd33f62a41ee06a74f7321da1afe4c0
+Author: raunak <raunakkumar0906@gmail.com>
+Date:   Thu Mar 10 23:09:11 2022 +0530
+
+    c2 on predict
+
+commit 767485205920a5bf6c0c7d4eb815a537054ec1c0
+Merge: d79768b 4f596e6
+Author: raunak <raunakkumar0906@gmail.com>
+Date:   Thu Mar 10 23:06:58 2022 +0530
+
+    Merge branch 'member3' into main
+
+commit 4f596e6f29509396a69deda20c19834325d78009
+Author: raunak <raunakkumar0906@gmail.com>
+Date:   Thu Mar 10 23:06:35 2022 +0530
+
+    member 3 started working on predict
+
+commit d79768b71c47f13a1c6a693848d7931bc413f7ac
+Author: raunak <raunakkumar0906@gmail.com>
+Date:   Thu Mar 10 23:01:55 2022 +0530
+
+    updated
+
+commit d5c998f159c74b6f0a24dc441c2634f8a1e2097e
+Author: raunak <raunakkumar0906@gmail.com>
+Date:   Thu Mar 10 22:55:17 2022 +0530
+
+    updated
+
+commit c7edbe81db0d20002c2fcbcc0d6d6ba5f1d61a65
+Author: raunak <raunakkumar0906@gmail.com>
+Date:   Thu Mar 10 22:52:39 2022 +0530
+
+    updated
+
+commit 45ddbcf5ee013eef75c5ed229cd2372f1be09da0
+Author: raunak <raunakkumar0906@gmail.com>
+Date:   Thu Mar 10 22:48:51 2022 +0530
+
+    redme
+
+commit 5977640c4592ea56113f1261a3d8cc8fe05acfcc
+Author: raunak <raunakkumar0906@gmail.com>
+Date:   Thu Mar 10 22:41:16 2022 +0530
+
+    readme file updated.
+
+commit d7baa261c894cacb73484a97d2a8904d880744ee
+Author: raunak <raunakkumar0906@gmail.com>
+Date:   Thu Mar 10 22:39:25 2022 +0530
+
+    some debbugging
+
+commit 0c9a1e843db69ce69bb9cc56552d82354af7a16b
+Author: md-arsad <mdarsad15022001@gmail.com>
+Date:   Wed Mar 9 22:33:25 2022 +0530
+
+     C9 debugging
+
+commit 28195b0bd48f26aa0106b08c4056505f43949585
+Author: md-arsad <mdarsad15022001@gmail.com>
+Date:   Wed Mar 9 22:05:08 2022 +0530
+
+    C8 modeling done
+
+commit f6f428faf2a5331f4fbb2b5b5183b394d71a4eaf
+Author: md-arsad <mdarsad15022001@gmail.com>
+Date:   Wed Mar 9 22:02:13 2022 +0530
+
+    C7 modified again
+
+commit a15c8877ff3548bdb831e541bf2a0e3d6b371022
+Author: md-arsad <mdarsad15022001@gmail.com>
+Date:   Wed Mar 9 21:58:29 2022 +0530
+
+    C6 modified
+
+commit 33abd88cc6c8aa6606bc160d675e5c3c8003b2aa
+Author: md-arsad <mdarsad15022001@gmail.com>
+Date:   Wed Mar 9 21:51:44 2022 +0530
+
+    C5 modified modeling
+
+commit eb427518555ffa8746afbdc58ffeaabff0206407
+Author: md-arsad <mdarsad15022001@gmail.com>
+Date:   Wed Mar 9 21:46:46 2022 +0530
+
+    C4 completed modeling definition
+
+commit 7a3656ad83f911adaae4fc86d4d3f3449d271a43
+Author: md-arsad <mdarsad15022001@gmail.com>
+Date:   Wed Mar 9 21:44:00 2022 +0530
+
+    C3 started modeling
+
+commit f4bb046252a3264b14ce0515a2f587817bd68968
+Merge: fe14e81 23b8647
+Author: md-arsad <mdarsad15022001@gmail.com>
+Date:   Wed Mar 9 21:42:27 2022 +0530
+
+    Merge branch 'main' of https://github.com/joint-operation/Medical into Member2
+
+commit 23b864796e8c4f4db22ac644bc6c99283d7e2e7d
+Merge: 3a72378 92a6a72
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 21:32:03 2022 +0530
+
+    Merge branch 'Member1' into main
+
+commit 3a723784de958691dc330fd4ee7d7119befc685c
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 21:29:09 2022 +0530
+
+    added new datasheet
+
+commit 92a6a729bb36e6a1265560afbd15ad78a31045dd
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 21:26:37 2022 +0530
+
+    removed datasheet from member1
+
+commit b868e5cffe20d3abe108aaae763458c5e1c39e2b
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 21:24:37 2022 +0530
+
+    deleted empty file
+
+commit ccb79eb5c750d8e7dc0d4fbb6e7855370efecba9
+Merge: 5402aed f8e61cb
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 21:23:29 2022 +0530
+
+    Merge branch 'main' of https://github.com/joint-operation/Medical into Member1
+
+commit f8e61cba5e7eb2f8819cac45bcbc3b5732383d57
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 21:22:02 2022 +0530
+
+    added symptom_severity.csv
+
+commit 68e8a4949a4dbcf063bfd37c26785650d582c755
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 21:17:03 2022 +0530
+
+     precaution file added
+
+commit fe14e8158bc658f112b22591fce678701feb04e8
+Author: md-arsad <mdarsad15022001@gmail.com>
+Date:   Wed Mar 9 21:13:49 2022 +0530
+
+    C2 modified file
+
+commit f3d0d669282460059479c8af1bc0a936af89a4ee
+Author: md-arsad <mdarsad15022001@gmail.com>
+Date:   Wed Mar 9 21:09:43 2022 +0530
+
+    C1 on branch Member2
+
+commit 88b57da3ca44d172869da52b423cd1a3c6b870fd
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 21:04:15 2022 +0530
+
+    created symptom file
+
+commit 5402aedd9c2ad4683b4723928658e59e6d86f808
+Merge: 8c3d3b8 ed7de76
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 20:57:05 2022 +0530
+
+    Merge branch 'main' of https://github.com/joint-operation/Medical into Member1
+
+commit ed7de762431e745494cd27af83d3b0bbd2a52faf
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 19:44:23 2022 +0530
+
+    c7 added datasheet in main
+
+commit 8c3d3b88147a491e42789df5f559423664c74b9f
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 19:40:18 2022 +0530
+
+    c6
+
+commit 478b794e8aa8d43888e7e244c645af1fbc4c8f3a
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 15:21:42 2022 +0530
+
+    count_check fun added
+
+commit c5e547fcb559e9e0fedd7a77d76057c09ea2ed9a
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 15:20:12 2022 +0530
+
+    modified minimum age
+
+commit 8b9ff5c644754c92125cd6f03e36f3282cca3628
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 15:18:27 2022 +0530
+
+    Revert "check_age fun added"
+    
+    This reverts commit 854e6e0594a68f7ccb38b47e4f3af39d95585db8.
+
+commit 854e6e0594a68f7ccb38b47e4f3af39d95585db8
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 15:11:41 2022 +0530
+
+    check_age fun added
+
+commit d99558676c01f1695c16caf827542b52a2e62c4c
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 15:09:32 2022 +0530
+
+     sym_check function added
+
+commit 3c7a20013fc1c714217c85643aa340a553711e1b
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 10:58:11 2022 +0530
+
+    C1 imported pyweb.io,pandas
+
+commit f227ff4a3ab87df6be3b52a30e1035e21b30c628
+Author: Satish K Oraon <satishkumar@iitbhilai.ac.in>
+Date:   Wed Mar 9 10:53:52 2022 +0530
+
+    added 2 empty file
+
+commit e44b8e8b938d69bda4da8940ada813c38314e2df
+Author: Satish Kumar Oraon <96775064+joint-operation@users.noreply.github.com>
+Date:   Wed Mar 9 10:31:32 2022 +0530
+
+    Initial commit
