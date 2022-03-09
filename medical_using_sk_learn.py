@@ -13,3 +13,6 @@ def check_age(age):
         return 'Too old'
     elif age < 5:
         return 'Too young'
+def count_check(c):
+    if c > 17:
+        return "Too many symptoms"
