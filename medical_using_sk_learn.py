@@ -92,4 +92,4 @@ def modelling():
             symptoms[ind] = smp.strip(" ")
         except:
             pass
-    return symptoms, model, desc, sev, prec, col_names, le_disease
+    return symptoms,    model, desc, sev, prec, col_names, le_disease
