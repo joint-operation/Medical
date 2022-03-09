@@ -175,3 +175,8 @@ def predict(symptoms, model, desc, sev, prec, col_names, le_disease):
         #put_text(sm)
         precautions.append([indx + 1, sm])
     put_collapse('Precautions ', [ put_table([ ['S.No', 'Precaution'], precautions[0],precautions[1],precautions[2],precautions[3], ])], open=True)
+
+if __name__ == '__main__':
+    symptoms, model, desc, sev, prec, col_names, le_disease = modelling()
+    flag = True
+    pos = ['Yes','No']
