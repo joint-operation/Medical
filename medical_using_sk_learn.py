@@ -53,3 +53,21 @@ def modelling():
         #print(len(smp),smp)
         new_df.loc[ind] = smp
     print("Dataset loaded...")
+    #inputs2 = new_df.drop('Disease',axis='columns')
+    #target2["Disease"] = new_df['Disease']
+    
+    from sklearn.preprocessing import LabelEncoder
+    le_disease = LabelEncoder()
+    
+    new_df["Diseases"] = le_disease.fit_transform(new_df['Disease'])
+    
+    inputs2 = new_df.drop('Disease',axis='columns')
+    
+    target2 = new_df['Diseases']
+    
+    inputs2 = inputs2.drop('Diseases',axis=1)
+    
+    from sklearn.model_selection import train_test_split
+    X_train,X_test,y_train,y_test = train_test_split(inputs2,target2,test_size=0.3)
+    
+    print("Test and Train data created")
