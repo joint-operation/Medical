@@ -180,3 +180,15 @@ if __name__ == '__main__':
     symptoms, model, desc, sev, prec, col_names, le_disease = modelling()
     flag = True
     pos = ['Yes','No']
+    while flag:
+        result = predict(symptoms, model, desc, sev, prec, col_names, le_disease)
+        inp = input(label = "Want to check your disease  again ? ", datalist = pos, required  = True)
+        inp = inp.lower()
+        if inp == 'yes':
+            print(111111)
+            continue
+        elif  inp == 'no':
+            break
+        else:
+            put_text('Invalid input !!')
+        put_text("-"*50)
