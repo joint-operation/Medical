@@ -8,3 +8,8 @@ x_symptoms = []
 def symp_check(x):
     if x not in x_symptoms:
         return 'Try again !!'
+def check_age(age):
+    if age > 100:
+        return 'Too old'
+    elif age < 5:
+        return 'Too young'
