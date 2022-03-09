@@ -16,3 +16,4 @@ def check_age(age):
 def count_check(c):
     if c > 17:
         return "Too many symptoms"
+    
