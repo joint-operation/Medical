@@ -71,3 +71,18 @@ def modelling():
     X_train,X_test,y_train,y_test = train_test_split(inputs2,target2,test_size=0.3)
     
     print("Test and Train data created")
+
+    from sklearn import tree
+    model = tree.DecisionTreeClassifier()
+    model.fit(X_train,y_train)
+    model.score(X_test,y_test)
+    print("Model fitted ")
+    print("Acurracy is ",model.score(X_test,y_test))
+    desc = pd.read_csv("symptom_description.csv")
+    desc.head()
+    
+    sev = pd.read_csv("symptom_severity.csv")
+    sev.head()
+    
+    prec = pd.read_csv( "symptom_precaution.csv")
+    prec.head()
