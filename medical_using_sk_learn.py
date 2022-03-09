@@ -20,4 +20,16 @@ def modelling():
     
     df = pd.read_csv("dataset.csv")
     inputs = df.drop('Disease',axis='columns')
-    target = df['Disease']    
+    target = df['Disease']   
+
+    col_names = []
+    for col in inputs.columns:
+        col_names.append(col)
+        
+    symptoms = []
+    for col in col_names:
+        new = df.drop_duplicates(subset = [col])
+        for ind in new.index:
+            symptom = new[col][ind]
+            if symptom not in symptoms and str(symptom) != "nan": #
+                symptoms.append(symptom) 
