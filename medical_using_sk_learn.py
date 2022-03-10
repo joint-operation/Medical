@@ -163,3 +163,4 @@ def predict(symptoms, model, desc, sev, prec, col_names, le_disease):
         toast( msg, position='right', color='#ff2121', duration=0)
 
     col_names = []
+    
