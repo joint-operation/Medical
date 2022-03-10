@@ -116,3 +116,30 @@ def predict(symptoms, model, desc, sev, prec, col_names, le_disease):
         ss = input(label = "Symptom "+str(j+1), datalist = x_symptoms, validate = symp_check, required  = True)
         #put_text(ss)
         smps.append(ss)
+    for smp in smps:
+        #smp = smp.replace(" ","_")
+        if smp in symptoms:
+            ind = symptoms.index(smp)
+            prd[ind] = 1
+    if 'None' in smps:
+        smps.remove('None')
+    #print(prd)
+    result = model.predict([prd])
+    ds = le_disease.inverse_transform([result])[0]
+    
+    x = desc.loc[desc['Disease'] == ds]
+    idx = x.index[0]
+    put_markdown(r""" # Results
+    """)
+    name = "Name : " + name
+    age = "Age : " + str(age)
+
+    put_text(name)
+    put_text(age)
+    #put_text("Desciptions :")
+    #put_text(ds)
+    #put_text(desc["Description"][idx])
+
+    put_collapse('Disease : ' + ds, desc["Description"][idx], open = True)
+
+    sm = 0
