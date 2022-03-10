@@ -143,3 +143,23 @@ def predict(symptoms, model, desc, sev, prec, col_names, le_disease):
     put_collapse('Disease : ' + ds, desc["Description"][idx], open = True)
 
     sm = 0
+    for i in smps:
+        #i = i.replace(" ","_")
+        print(i in symptoms)
+        x = sev.loc[sev['Symptom'] == i]
+        idx = x.index[0]
+        #print(idx)
+        sm += sev["weight"][idx]
+    wg = sm/len(smps)
+
+    if wg <=2 :
+        msg = "Dont panic it's just a normal symptoms and can be cured easily"
+        toast( msg, position='right', color='#28ff21', duration=0)
+    elif wg <=4 and wg > 2:
+        msg = "The symptoms are not normal, visit doctor as soon as possible"
+        toast( msg, position='right', color='#f8ff21', duration=0)
+    else:
+        msg = "You are at a high risk !!"
+        toast( msg, position='right', color='#ff2121', duration=0)
+
+    col_names = []
