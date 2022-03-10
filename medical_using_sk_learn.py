@@ -164,3 +164,14 @@ def predict(symptoms, model, desc, sev, prec, col_names, le_disease):
 
     col_names = []
     
+    for col in prec.columns:
+        col_names.append(col)
+    precautions = []
+    for indx,i in enumerate(col_names):
+        x = prec.loc[prec['Disease'] == ds]
+        idx = x.index[0]
+        #print(idx)
+        sm = prec[i][idx]
+        #put_text(sm)
+        precautions.append([indx + 1, sm])
+    put_collapse('Precautions ', [ put_table([ ['S.No', 'Precaution'], precautions[0],precautions[1],precautions[2],precautions[3], ])], open=True)
