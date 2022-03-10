@@ -100,3 +100,19 @@ def predict(symptoms, model, desc, sev, prec, col_names, le_disease):
     print(len(symptoms))
     prd = [0]*(len(symptoms) - 1)
     
+    name = input("Enter your name ",type = TEXT,required =True)
+    age = input("enter your age", type = NUMBER, validate = check_age,required =True)
+    no_smp = input("How many symptoms do you have ?",type = NUMBER,validate = count_check,required =True)
+    #pred = pd.DataFrame(prd).T
+    #smps = ["headache","joint pain","dehydration","itching"]
+    smps = []
+    global x_symptoms
+    x_symptoms = symptoms.copy()
+    x_symptoms.remove('Disease')
+    x_symptoms.append('None')
+    print(symptoms)
+    for j in range(no_smp):
+        #ss = input("Symptom "+str(j+1), type = TEXT)
+        ss = input(label = "Symptom "+str(j+1), datalist = x_symptoms, validate = symp_check, required  = True)
+        #put_text(ss)
+        smps.append(ss)
