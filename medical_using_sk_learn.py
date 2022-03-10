@@ -88,8 +88,10 @@ def modelling():
     prec.head()
 
     for ind,smp in enumerate(symptoms):
+
         try:
             symptoms[ind] = smp.strip(" ")
+            
         except:
             pass
     return symptoms,    model, desc, sev, prec, col_names, le_disease
