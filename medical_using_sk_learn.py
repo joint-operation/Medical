@@ -99,3 +99,4 @@ def modelling():
 def predict(symptoms, model, desc, sev, prec, col_names, le_disease):
     print(len(symptoms))
     prd = [0]*(len(symptoms) - 1)
+    
